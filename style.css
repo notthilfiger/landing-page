@@ -19,7 +19,17 @@ body {
 
 .top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .links ul{
@@ -34,13 +44,6 @@ body {
 li a {
     text-decoration: none;
     color: #e5e7eb;
-}
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    display: flex;
-    align-items: center;
 }
 
 .bottom {
@@ -70,4 +73,103 @@ li a {
     border-radius: 15px;
 }
 
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.random-title {
+    margin: 16px;
+    padding: 8px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+blockquote {
+    padding: 64px 24px;
+}
+
+blockquote footer {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+}
+
+.cta-container {
+    background-color: #f9faf8;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text {
+    margin: 0;
+}
+.cta-text p:first-child {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.cta-text p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.cta-sign-up button {
+    padding: 8px 16px;
+    border: 3px solid #f9faf8;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: inherit;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    height: 80px;
+}
+
+/* Developer : Tommy Inyeneobong Jeremiah*/
